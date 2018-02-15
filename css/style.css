@@ -1,0 +1,186 @@
+body {
+    background-color: grey;
+    font-family: Century Gothic;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+    border: 3px solid black;
+}
+
+.menu {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.menu a.logo {
+    color: #fff;
+    font-family: Century Gothic;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+ul.items {
+    float: right;
+    display: inline-block;
+    color: #fff;
+    list-style-type: none;
+}
+
+ul.items li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ul.items li a {
+    color: #fff;
+    transition: 0.2s all;
+}
+
+ul.items li a:hover {
+    color: purple;
+    letter-spacing: 1px;
+    transition: 0.2s all;
+}
+
+.avatarka {
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    padding-right: 50px;
+    float: left;
+    transition: 0.3s all;
+}
+.avatarka:hover{
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+ul.contacts {
+    padding: 20px;
+    padding-left: 30px;
+}
+
+ul.contacts li {
+    padding: 5px;
+}
+
+ul.contacts li.tel {
+    list-style-image: url(../img/tel.png);
+}
+
+ul.contacts li.e-mail {
+    list-style-image: url(../img/google.png);
+}
+
+ul.contacts li.skype {
+    list-style-image: url(../img/skype.png);
+}
+
+.caption {
+    color: purple;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.skills {
+    padding: 20px;
+    height: 170px;
+}
+
+ul.Caption li {
+    font-size: 1.5em;
+    color: purple;
+    font-weight: bold;
+    list-style-image: url(../img/strelka.png);
+}
+
+ul.raiting {
+    list-style: none;
+    width: 100px;
+    float: right;
+    margin: 0;
+}
+
+ul.raiting li {
+    display: inline-block;
+}
+
+ul.raiting li img{
+    transition: 0.1s all;
+}
+ul.raiting li img:hover{
+    width: 10px;
+    height: 10px;
+    transition: 0.1s all;
+}
+
+.leftUl {
+    width: 45%;
+    float: left;
+}
+
+.rightUl {
+    width: 45%;
+    float: right;
+}
+
+span {
+    float: left;
+}
+
+.expirience {
+    padding: 10px;
+}
+
+.row1 {
+    display: inline-block;
+}
+
+.row1 span {
+    padding: 10px;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
+.education {
+    padding: 10px;
+}
+
+.training {
+    padding: 10px;
+}
+
+.personalSkills {
+    padding: 10px;
+}
+
+.personalSkills ul.skills {
+    list-style:circle;
+    list-style-position: inside;
+    -moz-column-count: 2;
+    /* Firefox */
+    -webkit-column-count: 2;
+    /* Safari and Chrome */
+    column-count: 2;
+}
+.personalSkills ul.skills li{
+    padding: 10px;
+}
